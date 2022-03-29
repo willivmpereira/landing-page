@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+body{
+    font-family: 'Rubik', sans-serif;
+
+    header{
+        background-color: #005791;
+        height: 80vh;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .container{
+            .grid{
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                align-items: center;
+                justify-content: center;
+
+                .content__text{
+                    h1{
+                        font-size: 2.6rem;
+                        color: #fff;
+                    }
+                    p{
+                        color: #FFF;
+                        font-size: 1.25rem;
+                    }
+                }
+                .content__img{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+            }
+        }
+        
+    }
+
+    section{
+
+        &.price__restrictions {
+            .grid {
+                grid-template-columns: 1fr 2fr;
+                display: grid;
+                .content__text {
+                    .title {
+                        display: flex;
+                        margin-bottom: 1rem;
+                        gap: 1rem;
+
+                        h2{
+                            font-size: 4rem;
+                        }
+                        p{
+                            font-size: 1.5rem;
+                            font-weight: 300;
+                        }
+                    }
+                }
+                p{
+                    font-size: 1.25rem;
+                    line-height: 1.6;
+                    font-weight: 300;
+                }
+            }
+        }
+
+        &:nth-child(even){
+            background-color: #F8F8F8;
+        }
+    }
+
+
+}
