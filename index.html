@@ -1,316 +1,539 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
 
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <header>
-      <div class="container">
-        <div class="grid">
-          <div class="content__text">
-            <h1>Seu cliente comprondo em seu novo site com olhos!</h1>
-            <p>
-              Parece mentira, mas não é! Usamos o dia
-              <strong>1º de Abril</strong>
-              para anunciar o lançamento do seu novo site/motor de reservas.
-              <br />
-              <br />
-              Nele o seu cliente ficará tão encantado que não vai tirar os olhos
-              da tela, gerando muito mais reservas para o seu negócio.
-            </p>
-          </div>
-          <div class="content__img">
-            <img src="https://picsum.photos/740/400" alt="" />
-          </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+  <title>Document</title>
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <div class="grid">
+        <div class="content__text">
+          <h1>Seu cliente comprondo em seu novo site com olhos!</h1>
+          <p>
+            Parece mentira, mas não é! Usamos o dia
+            <strong>1º de Abril</strong>
+            para anunciar o lançamento do seu novo site/motor de reservas.
+            <br />
+            <br />
+            Nele o seu cliente ficará tão encantado que não vai tirar os olhos
+            da tela, gerando muito mais reservas para o seu negócio.
+          </p>
+        </div>
+        <div class="content__img">
+          <img src="https://picsum.photos/740/400" alt="" />
         </div>
       </div>
-    </header>
+    </div>
+  </header>
 
-    <section class="price__restrictions section">
-      <div class="container">
-            <h2 class="title">Confira as vantagens da sua nova máquina de vendas</h2>
-            <div class="grid">
-              <div class="content__text">
-                <div class="title">
-                  <h2>01</h2>
-                  <p>Preços e restrições direto no calendário</p>
-                </div>
-                <p class="description__text">
-                  O seu cliente vai saber, antes mesmo de iniciar a pesquisa, a
-                  média de valores, se existe mínimo de diárias em cada dia ou se
-                  tem restrições de check-in e check-out, evitando que ele faça a
-                  pesquisa várias vezes.
-                </p>
-              </div>
-              <div class="content__img">
+  <section class="price__restrictions section">
+    <div class="container">
+      <h2 class="title">Confira as vantagens da sua nova máquina de vendas</h2>
+      <div class="grid">
+        <div class="content__text left">
+          <div class="title">
+            <h2>01</h2>
+            <p>Preços e restrições<br>direto no calendário</p>
+          </div>
+          <p class="description__text">
+            O seu cliente vai saber, antes mesmo de iniciar a pesquisa, a
+            média de valores, se existe mínimo de diárias em cada dia ou se
+            tem restrições de check-in e check-out, evitando que ele faça a
+            pesquisa várias vezes.
+          </p>
+        </div>
+        <div class="content__img">
+          <div class="swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
                 <img src="https://picsum.photos/740/400" alt="" />
               </div>
-          </div>
-      </div>
-    </section>
-
-    <section class="most section">
-      <div class="container">
-        <div class="grid">
-          <div class="content__img">
-            <img src="https://picsum.photos/740/400" alt="" />
-          </div>
-          <div class="content__text">
-            <div class="title">
-              <p>Página de opcionais</p>
-              <h2>02</h2>
-            </div>
-            <p class="description__text">
-              Após a escolha da acomodação e tarifa, o cliente é direcionado a uma
-              página exclusiva para opcionais, dando visibilidade a cada um deles
-              e suas condições de compra.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="search section">
-      
-      <div class="container">
-        <div class="grid">
-          <div class="content__text">
-            <div class="title">
-              <h2>03</h2>
-              <p>Pesquisas rápidas e interativas</p>
-            </div>
-            <p class="description__text">
-              A cada pesquisa realizada o sistema irá armazenar os dados dela.
-              Caso o cliente decida por uma data que já pesquisou, será possível
-              acessá-la com um clique.
-            </p>
-          </div>
-          <div class="content__img">
-            <img src="https://picsum.photos/740/400" alt="" />
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="recovery section">
-      <div class="container">
-        <div class="grid">
-          <div class="content__img">
-            <img src="https://picsum.photos/740/400" alt="" />
-          </div>
-          <div class="content__text">
-            <div class="title">
-              <p>Recuperação de carrinho</p>
-              <h2>04</h2>
-            </div>
-            <p class="description__text">
-              Caso o cliente desista da compra, o sistema irá enviar e-mails de
-              recuperação da reserva. Processo realizado em total conformidade com
-              a LGPD.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="payment section">
-      <div class="container">
-        <div class="grid">
-          <div class="content__text">
-            <div class="title">
-              <h2>05</h2>
-              <p>Variedade de pagamentos</p>
-            </div>
-            <p class="description__text">
-              Tenha o Foco Pay gratuitamente e pague as suas reservas diretas com
-              check-out transparente em diversos adquirentes. Cielo, Rede,
-              PagSeguro, Stone, etc.
-            </p>
-          </div>
-          <div class="content__img">
-            <img src="https://picsum.photos/740/400" alt="" />
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="multiply-payment section">
-      <div class="container">
-        <div class="grid">
-          <div class="content__img">
-            <img src="https://picsum.photos/740/400" alt="" />
-          </div>
-          <div class="content__text">
-            <div class="title">
-              <p>Orçamentos com múltiplos pagamentos</p>
-              <h2>06</h2>
-            </div>
-            <p class="description__text">
-              Ao receber o orçamento e escolher concluir a reserva, o seu cliente
-              será direcionado para a tela de finalização de reservas do motor,
-              tendo uma variedade de escolhas de forma de paga
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="restrick">
-      <div class="container">
-        <div class="grid">
-          <div class="content__text">
-            <div class="title">
-              <h2>07</h2>
-              <p>Área restrita para clientes</p>
-            </div>
-            <p class="description__text">
-              Modernização da área do cliente e corporativo. Layout moderno com
-              listagem e cancelamento de reservas, crédito de fidelidade e formas
-              de pagamento.
-            </p>
-          </div>
-          <div class="content__img">
-            <img src="https://picsum.photos/740/400" alt="" />
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="">
-      <div class="container">
-        <div class="grid">
-          <div class="content__img">
-            <img src="https://picsum.photos/740/400" alt="" />
-          </div>
-          <div class="content__text">
-            <div class="title">
-              <p>Gatilhos para reservas</p>
-              <h2>08</h2>
-            </div>
-            <p class="description__text">
-              Diversos gatilhos mentais para incenti var a reserva do seu cliente.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section>
-      <div class="container">
-        <div class="grid">
-          <div class="content__text">
-            <div class="title">
-              <h2>09</h2>
-              <p>Site para Rede ou Vocation</p>
-            </div>
-            <p class="description__text">
-              Opção de site totalmente integrado para multipropriedades, com
-              pesquisa por destino ou por estabelecimento. Venda de múltiplos
-              estabelecimentos em um único site.
-            </p>
-          </div>
-          <div class="content__img">
-            <img src="https://picsum.photos/740/400" alt="" />
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section>
-      <div class="container">
-        <div class="grid">
-          <div class="content__img">
-            <img src="https://picsum.photos/740/400" alt="" />
-          </div>
-          <div class="content__text">
-            <div class="title">
-              <p>Layout moderno e customizado</p>
-              <h2>10</h2>
-            </div>
-            <p class="description__text">
-              Layout moderno e desenvolvido com as melhores tecnologias.
-              Customização de menu, buscador, slide, marcadores, cores, módulos e
-              muito mais.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section>
-      <div class="container">
-        <div class="grid">
-          <div class="content__text">
-            <div class="title">
-              <h2>11</h2>
-              <p>Versão mobile moderna</p>
-            </div>
-            <p class="description__text">
-              Versão mobile responsiva e com fluxo de pesquisa projetado para
-              simplificar a reserva do seu cliente.
-            </p>
-          </div>
-          <div class="content__img">
-            <img src="https://picsum.photos/740/400" alt="" />
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section>
-      <div class="container">
-        <div class="grid">
-          <div class="content__img">
-            <img src="https://picsum.photos/740/400" alt="" />
-          </div>
-          <div class="content__text">
-            <div class="title">
-              <p>Segurança de</p>
-              <h2>12</h2>
-            </div>
-            <p class="description__text">Certificado digital gratuito; LGPD; PCI;</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section>
-        <div class="container">
-            <div class="grid">
-              <div class="content__text">
-                <div class="title">
-                  <h2>13</h2>
-                  <p>Integrações com o Google</p>
-                </div>
-                <p class="description__text">
-                  A cada pesquisa realizada o sistema irá armazenar os dados dela. Caso o cliente decida por uma data que já pesquisou, será possível acessá-la com um clique.
-                </p>
+              <div class="swiper-slide">
+                <img src="https://picsum.photos/740/400" alt="" />
               </div>
-              <div class="content__img">
+              <div class="swiper-slide">
                 <img src="https://picsum.photos/740/400" alt="" />
               </div>
             </div>
           </div>
-    </section>
-
-    <footer>
-        <div class="container">
-            <div class="grid">
-                <div class="content__text">
-                    <p>Nenhum custo adicional a sua mensalidade Taxa de migração: De <s>R$ 500,00</s> por R$ 300,00 (Pago uma única vez)</p>
-                    <a href="" class="btn">ver meu novo site</a>
-                </div>
-                <div class="content__text">
-                    <a href="" class="btn">solicitar migração</a>
-                    <p>Quero migrar para o novo motor de reservas Migração em até 30 dias após o pagamento</p>
-                </div>
-            </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
         </div>
-    </footer>
-  </body>
+      </div>
+    </div>
+  </section>
+
+  <section class="most section">
+    <div class="container">
+      <div class="grid">
+        <div class="content__img">
+          <div class="swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="https://picsum.photos/740/400" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="https://picsum.photos/740/400" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="https://picsum.photos/740/400" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+        <div class="content__text right">
+          <div class="title">
+            <p>Página de <br>opcionais</p>
+            <h2>02</h2>
+          </div>
+          <p class="description__text">
+            Após a escolha da acomodação e tarifa, o cliente é direcionado a uma
+            página exclusiva para opcionais, dando visibilidade a cada um deles
+            e suas condições de compra.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="search section">
+
+    <div class="container">
+      <div class="grid">
+        <div class="content__text left">
+          <div class="title">
+            <h2>03</h2>
+            <p>Pesquisas rápidas <br>e interativas</p>
+          </div>
+          <p class="description__text">
+            A cada pesquisa realizada o sistema irá armazenar os dados dela.
+            Caso o cliente decida por uma data que já pesquisou, será possível
+            acessá-la com um clique.
+          </p>
+        </div>
+        <div class="content__img">
+          <div class="swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="https://picsum.photos/740/400" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="https://picsum.photos/740/400" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="https://picsum.photos/740/400" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="recovery section">
+    <div class="container">
+      <div class="grid">
+        <div class="content__img">
+          <div class="swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="https://picsum.photos/740/400" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="https://picsum.photos/740/400" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="https://picsum.photos/740/400" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+        <div class="content__text right">
+          <div class="title">
+            <p>Recuperação <br>de carrinho</p>
+            <h2>04</h2>
+          </div>
+          <p class="description__text">
+            Caso o cliente desista da compra, o sistema irá enviar e-mails de
+            recuperação da reserva. Processo realizado em total conformidade com
+            a LGPD.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="payment section">
+    <div class="container">
+      <div class="grid">
+        <div class="content__text left">
+          <div class="title">
+            <h2>05</h2>
+            <p>Variedade de <br>pagamentos</p>
+          </div>
+          <p class="description__text">
+            Tenha o Foco Pay gratuitamente e pague as suas reservas diretas com
+            check-out transparente em diversos adquirentes. Cielo, Rede,
+            PagSeguro, Stone, etc.
+          </p>
+        </div>
+        <div class="content__img">
+          <div class="swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="https://picsum.photos/740/400" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="https://picsum.photos/740/400" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="https://picsum.photos/740/400" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="multiply-payment section">
+    <div class="container">
+      <div class="grid">
+        <div class="content__img">
+          <div class="swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="https://picsum.photos/740/400" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="https://picsum.photos/740/400" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="https://picsum.photos/740/400" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+        <div class="content__text right">
+          <div class="title">
+            <p>Orçamentos com múltiplos pagamentos</p>
+            <h2>06</h2>
+          </div>
+          <p class="description__text">
+            Ao receber o orçamento e escolher concluir a reserva, o seu cliente
+            será direcionado para a tela de finalização de reservas do motor,
+            tendo uma variedade de escolhas de forma de paga
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="restrick section">
+    <div class="container">
+      <div class="grid">
+        <div class="content__text left">
+          <div class="title">
+            <h2>07</h2>
+            <p>Área restrita <br>para clientes</p>
+          </div>
+          <p class="description__text">
+            Modernização da área do cliente e corporativo. Layout moderno com
+            listagem e cancelamento de reservas, crédito de fidelidade e formas
+            de pagamento.
+          </p>
+        </div>
+        <div class="content__img">
+          <div class="swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="https://picsum.photos/740/400" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="https://picsum.photos/740/400" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="https://picsum.photos/740/400" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="grid">
+        <div class="content__img">
+          <div class="swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="https://picsum.photos/740/400" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="https://picsum.photos/740/400" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="https://picsum.photos/740/400" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+        <div class="content__text right">
+          <div class="title">
+            <p>Gatilhos para <br>reservas</p>
+            <h2>08</h2>
+          </div>
+          <p class="description__text">
+            Diversos gatilhos mentais para incenti var a reserva do seu cliente.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="grid">
+        <div class="content__text left">
+          <div class="title">
+            <h2>09</h2>
+            <p>Site para Rede <br>ou Vocation</p>
+          </div>
+          <p class="description__text">
+            Opção de site totalmente integrado para multipropriedades, com
+            pesquisa por destino ou por estabelecimento. Venda de múltiplos
+            estabelecimentos em um único site.
+          </p>
+        </div>
+        <div class="content__img">
+          <div class="swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="https://picsum.photos/740/400" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="https://picsum.photos/740/400" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="https://picsum.photos/740/400" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="grid">
+        <div class="content__img">
+          <div class="swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="https://picsum.photos/740/400" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="https://picsum.photos/740/400" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="https://picsum.photos/740/400" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+        <div class="content__text right">
+          <div class="title">
+            <p>Layout moderno e <br>customizado</p>
+            <h2>10</h2>
+          </div>
+          <p class="description__text">
+            Layout moderno e desenvolvido com as melhores tecnologias.
+            Customização de menu, buscador, slide, marcadores, cores, módulos e
+            muito mais.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="grid">
+        <div class="content__text left">
+          <div class="title">
+            <h2>11</h2>
+            <p>Versão mobile <br>moderna</p>
+          </div>
+          <p class="description__text">
+            Versão mobile responsiva e com fluxo de pesquisa projetado para
+            simplificar a reserva do seu cliente.
+          </p>
+        </div>
+        <div class="content__img">
+          <div class="swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="https://picsum.photos/740/400" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="https://picsum.photos/740/400" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="https://picsum.photos/740/400" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="grid">
+        <div class="content__img">
+          <div class="swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="https://picsum.photos/740/400" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="https://picsum.photos/740/400" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="https://picsum.photos/740/400" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+        <div class="content__text right">
+          <div class="title">
+            <p>Segurança <br>de dados</p>
+            <h2>12</h2>
+          </div>
+          <p class="description__text">
+            Certificado digital gratuito; LGPD; PCI;
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="grid">
+        <div class="content__text left">
+          <div class="title">
+            <h2>13</h2>
+            <p>Integrações com <br>o Google</p>
+          </div>
+          <p class="description__text">
+            A cada pesquisa realizada o sistema irá armazenar os dados dela. Caso o cliente decida por uma data que já
+            pesquisou, será possível acessá-la com um clique.
+          </p>
+        </div>
+        <div class="content__img">
+          <div class="swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="https://picsum.photos/740/400" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="https://picsum.photos/740/400" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="https://picsum.photos/740/400" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="grid">
+      <div class="content__text">
+        <div class="container">
+          <div class="content">
+            <p>Nenhum custo adicional a sua mensalidade Taxa de migração: De <s>R$ 500,00</s> por R$ 300,00 (Pago uma
+              única vez)</p>
+            <a href="" class="btn">ver meu novo site</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="content__text">
+        <div class="container">
+          <div class="content">
+            <p>Quero migrar para o <strong>novo motor de reservas</strong> <span>Migração em até <strong>30
+                  dias</strong> após o pagamento</span></p>
+            <a href="" class="btn">solicitar migração</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+  <script>
+    const swiper = new Swiper('.swiper', {
+      // Optional parameters
+      direction: 'horizontal',
+      loop: true,
+
+      // If we need pagination
+      pagination: {
+        el: '.swiper-pagination',
+      },
+
+      // Navigation arrows
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+
+      // And if we need scrollbar
+      scrollbar: {
+        el: '.swiper-scrollbar',
+      },
+    });
+  </script>
+</body>
+
 </html>
