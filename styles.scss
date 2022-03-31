@@ -185,7 +185,7 @@ body{
                             }
                         }
                         .description__text{
-                            font-size: 1.10rem;
+                            font-size: 1rem;
                             line-height: 1.6;
                             font-weight: 300;
                             opacity: 0.65;
@@ -304,7 +304,7 @@ body{
         }
 
         &:last-of-type{
-            margin-bottom: 96px;
+            margin-bottom: 288px;
         }
     }
 
@@ -320,7 +320,7 @@ body{
 
             .content__text{
                 background-color: $primary-color;
-                padding: 2rem;
+                padding: 1.5rem;
 
                 .container{
                     
@@ -335,6 +335,7 @@ body{
                             color: $white-color;
                             font-weight: 300;
                             max-width: 350px;
+                            font-size: 0.85rem;
                         }
         
                         .btn{
@@ -483,6 +484,7 @@ body{
     }
 
     footer{
+
         .grid{
             grid-template-columns: 1fr !important;
             grid-template-rows: 1fr 1fr;

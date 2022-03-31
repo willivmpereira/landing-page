@@ -6,7 +6,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
-  <title>Document</title>
+  <link rel="shortcut icon" type="image/png" href="assets/img/201907081562590702icon512x512.png" />
+  <title>Novo site | Novo Motor</title>
 
   <link rel="stylesheet" href="styles.css" />
 </head>
@@ -35,7 +36,7 @@
 
   <section class="price__restrictions section">
     <div class="container">
-      <h2 class="title">Confira as vantagens da sua nova máquina de vendas</h2>
+      <h2 class="title">Confira as vantagens da sua nova máquina de vendas:</h2>
       <div class="grid">
         <div class="content__text left">
           <div class="title">
@@ -78,7 +79,7 @@
         </div>
         <div class="content__text right">
           <div class="title">
-            <p>Página de opcionais</p>
+            <p>Página de opcionais:</p>
             <h2>02</h2>
           </div>
           <p class="description__text">
@@ -96,7 +97,7 @@
         <div class="content__text left">
           <div class="title">
             <h2>03</h2>
-            <p>Minhas pesquisas</p>
+            <p>Minhas pesquisas:</p>
           </div>
           <p class="description__text">
             Armazenamos os dados de cada pesquisa realizada no motor. Logo, caso o cliente decida por uma data que já buscou, é possível acessá-la com um clique.
@@ -131,7 +132,7 @@
         </div>
         <div class="content__text right">
           <div class="title">
-            <p>Recuperação de carrinho</p>
+            <p>Recuperação de carrinho:</p>
             <h2>04</h2>
           </div>
           <p class="description__text">
@@ -148,7 +149,7 @@
         <div class="content__text left">
           <div class="title">
             <h2>05</h2>
-            <p>Variedade de pagamentos</p>
+            <p>Variedade de pagamentos:</p>
           </div>
           <p class="description__text">
             Pague as suas reservas diretas com a tecnologia de check-out transparente gratuitamente no Foco Pay. Sistema integrado com Cielo, Rede, PagSeguro, Stone, etc.
@@ -261,7 +262,7 @@
         <div class="content__text left">
           <div class="title">
             <h2>09</h2>
-            <p>Site para Rede ou Vacation</p>
+            <p>Site para Rede ou Vacation:</p>
           </div>
           <p class="description__text">
             Opção de site totalmente integrado para multipropriedades, com pesquisa por destino ou por estabelecimento. 
@@ -298,7 +299,7 @@ Venda de múltiplos estabelecimentos em um único site.
         </div>
         <div class="content__text right">
           <div class="title">
-            <p>Layout moderno e customizado</p>
+            <p>Layout moderno e customizado.</p>
             <h2>10</h2>
           </div>
           <p class="description__text">
@@ -419,20 +420,27 @@ Segurança no armazenamento de dados homologada pelo PCI.
   </footer>
 
   <script>
-    var lastscroll = 0
+    var fristscroll = 0
+    var lastscroll = 7898
+
     const scroll = document.addEventListener('scroll', function(event){
       var scrollY = window.pageYOffset  || document.documentElement.scrollTop;
 
-      if(scrollY > lastscroll){
+      if(scrollY > fristscroll){
         document.querySelector('footer').classList.add('hidden');
+
+        if(scrollY == lastscroll){
+          document.querySelector('footer').classList.remove('hidden');
+        }
       } else{
         document.querySelector('footer').classList.remove('hidden');
       }
 
-      lastscroll = scrollY <= 0 ? 0 : scrollY
+      fristscroll = scrollY <= 0 ? 0 : scrollY
       
     }, false)
   </script>
+
   <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
   <script>
     const swiper = new Swiper('.swiper', {
